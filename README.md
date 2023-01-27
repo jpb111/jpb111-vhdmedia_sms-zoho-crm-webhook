@@ -18,7 +18,7 @@ Setting up Webhooks includes the following three steps:
 5. Click Create Service
 6. Enter Connection name and Connection link name of your choice 
 7. Click Create and Connect 
-8. There will be a new page open enter the VHD sms user name and password and click connect. 
+8. There will be a new page open enter the given VHD sms account username and password and click connect. 
 9. This will create a connection and you will get a message connection created sucessfully. 
 
 
