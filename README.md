@@ -1,8 +1,8 @@
 # vhdmedia_sms-zoho-crm-webhook
 Connecting VHD-media sms platform with zoho CRM webhook
 
-## *Set Up Webhooks for VHDmedia sms*
-Setting up Webhooks includes the following three steps:
+## *Set Up Webhooks for VHDmedia sms in ZohoCRM*
+Setting up Webhooks in Zoho CRM includes the following three steps:
 
 1. Create a connection
 2. Create a webhook.
@@ -11,7 +11,7 @@ Setting up Webhooks includes the following three steps:
 
 ## *To create a connection*
 
-1. Go to Setup > Developer Space > Connections> Create Connection.
+1. In Zoho CRM Go to Setup > Developer Space > Connections> Create Connection.
 2. Click create connection page > Custom services > Create New Service
 3. In service details page enter a Service name and Service link name of your choice. 
 4. Authentication Type > Basic Authentication 
