@@ -75,3 +75,5 @@ Once the rule is created attached our webhook to the rule to send sms when the r
 Test if the sms webhook works. For example if we have created work flow rule to to send sms when creating a contact. Enter the First name and mobile fileds in the contacts. Remember to enter mobile numbers with country codes. Create a contact and we can see the the webhook is triggered. You can also click the timline once the contact is created to check if the webhook is triggered. 
 
 ![timeline](/images/timeline.png)
+
+![sms](/images/sms.jpg)
