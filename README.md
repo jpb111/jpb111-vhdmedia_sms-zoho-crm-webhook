@@ -57,7 +57,7 @@ https://example.com/sms/1/text/single
 
 "from" is the placeholder, "to" is the mobile number where we need to send the sms, "text" is the text we need to send. 
 
-To enter {${Contacts.Mobile} the mobile number filed in the contacts module. We need to enter #,  eg "to" : "{{#}}" and pick the filed from the drop down. 
+To enter {${Contacts.Mobile} the mobile number field in as the value of the key "to". We need to enter #,  eg "to" : "{{#}}" and pick the filed from the drop down. 
 
 In similarway to customize the sms text we can use # to pick the field we wanted. 
 
