@@ -26,7 +26,7 @@ Setting up Webhooks in Zoho CRM includes the following three steps:
 
 
 1. Go to Setup > Automation > Actions > Webhooks.
-2. n the Webhooks page, click Configure Webhook.
+2. In the Webhooks page, click Configure Webhook.
 3. Give a name and description for the webhook. 
 4. Choose Method as POST
 5. Enter the VHDMEDIA given api URI to notify 
@@ -46,15 +46,18 @@ https://example.com/sms/1/text/single
 
 ```Json
 
-{
-    "to" : "{{${Contacts.Mobile}}}",
+{   "from" : "VHDMEDIA",
+    "to"   : "{{${Contacts.Mobile}}}",
     "text" : "Hello ${Contacts.First Name} this is a sample message from VHD media zoho crm"
 }
 
 
 ```
 
-In the "to" : key we always needed to enter the filed  where we are entering the mobile number. Suppose we are entering mobile number in the field Phone to select that field enter #,  eg "to" : "{{#}}" and pick the filed from the drop down. 
+
+"from" is the placeholder, "to" is the mobile number where we need to send the sms, "text" is the text we need to send. 
+
+To enter {${Contacts.Mobile} the mobile number filed in the contacts module. We need to enter #,  eg "to" : "{{#}}" and pick the filed from the drop down. 
 
 In similarway to customize the sms text we can use # to pick the field we wanted. 
 
